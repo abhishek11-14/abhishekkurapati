@@ -66,7 +66,7 @@ export default function AboutSection() {
             <h4 className="edu-name">Hackathon Participant</h4>
             <p className="edu-school">Hackforge Hackathon</p>
             <div style={{ marginTop: '16px', borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border)' }}>
-              <img src="/hackforge-cert.jpg" alt="Hackforge Certificate" style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img src="/hackforge-cert.jpg.jpeg" alt="Hackforge Certificate" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
           </div>
         </div>

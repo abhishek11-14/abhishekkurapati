@@ -4,7 +4,7 @@ const projects = [
     title: 'Agrisaathi',
     tag: 'WEB APP',
     link: 'https://agrisaathi.vercel.app/',
-    image: '/agrisaathi-project.jpg'
+    image: '/agrisaathi-project.jpg.jpeg'
   }
 ];
 
