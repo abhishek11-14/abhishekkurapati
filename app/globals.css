@@ -29,7 +29,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
   font-family: 'Inter', sans-serif;
   background: var(--bg);
   color: var(--text);
@@ -179,6 +178,7 @@ img { max-width: 100%; display: block; }
   padding: 0;
   margin-bottom: 80px;
   animation: fadeSlideUp 0.5s ease both;
+  will-change: transform, opacity;
 }
 
 @keyframes fadeSlideUp {
