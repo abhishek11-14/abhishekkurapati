@@ -68,6 +68,25 @@ export default function Sidebar({ activeSection, onNav }) {
         </nav>
       </aside>
 
+      {/* Mobile Top Header (Profile Picture) */}
+      <div className="mobile-header">
+        <div className="sidebar-profile" style={{ marginBottom: 0, flexDirection: 'row', gap: '12px' }}>
+          <img
+            src="/profile.jpg.jpeg"
+            alt="K. Abhishek"
+            className="sidebar-avatar mobile-avatar"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = 'https://via.placeholder.com/44x44/111111/404040?text=KA';
+            }}
+          />
+          <div className="available-badge">
+            <span className="pulse-dot" />
+            Available
+          </div>
+        </div>
+      </div>
+
       {/* Mobile Bottom Nav */}
       <nav className="mobile-nav">
         {navItems.map((item) => (
