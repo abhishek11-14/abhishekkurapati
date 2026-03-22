@@ -38,7 +38,7 @@ export default function Sidebar({ activeSection, onNav }) {
       <aside className="sidebar">
         <div className="sidebar-profile">
           <img
-            src="/profile.jpg"
+            src="/profile.jpg.jpeg"
             alt="K. Abhishek"
             className="sidebar-avatar"
             onError={(e) => {
