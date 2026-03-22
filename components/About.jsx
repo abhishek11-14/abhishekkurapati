@@ -1,10 +1,7 @@
 export default function AboutSection() {
   return (
     <section id="about" className="section">
-      <div className="about-header-row">
-        <h2 className="section-heading">Get to Know Me</h2>
-        <img src="/quote-transparent.png" alt="Focus on the good" className="heading-watermark" />
-      </div>
+      <h2 className="section-heading">Get to Know Me</h2>
 
       <p className="about-bio">
         Hello, I&apos;m Abhishek, and I&apos;m more than just a student; I&apos;m a digital explorer. I have

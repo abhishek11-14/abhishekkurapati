@@ -356,25 +356,6 @@ img { max-width: 100%; display: block; }
 }
 
 /* === About === */
-.about-header-row {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-bottom: 32px;
-}
-
-.heading-watermark {
-  position: absolute;
-  left: 310px; /* shift right so it sets beside the title */
-  top: -60px; /* move up slightly to overlap beautifully */
-  width: 250px;
-  height: auto;
-  opacity: 0.15; /* subtle watermark effect */
-  pointer-events: none;
-  z-index: 0;
-  transform: rotate(5deg); /* Give it a playful angle */
-}
-
 .about-bio {
   font-size: 1rem;
   color: var(--text-muted);
