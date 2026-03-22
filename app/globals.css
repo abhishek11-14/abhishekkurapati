@@ -608,6 +608,10 @@ img { max-width: 100%; display: block; }
 }
 
 /* === Responsive === */
+.mobile-header {
+  display: none;
+}
+
 @media (max-width: 768px) {
   :root { --sidebar-w: 0px; }
 
@@ -673,10 +677,6 @@ img { max-width: 100%; display: block; }
     height: 44px !important;
     border-radius: 10px !important;
   }
-}
-
-.mobile-header {
-  display: none;
 }
 
 .mobile-nav {
