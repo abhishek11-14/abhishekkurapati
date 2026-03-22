@@ -41,7 +41,7 @@ export default function AboutSection() {
           <div className="edu-icon">🎓</div>
           <div className="edu-details">
             <h4 className="edu-name">B.Tech in Data Science</h4>
-            <p className="edu-school">CMR Institute of Technology (CMRIT), 2022 - Present</p>
+            <p className="edu-school">CMR Institute of Technology (CMRIT), 2025 - Present</p>
           </div>
         </div>
       </div>
