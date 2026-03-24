@@ -34,7 +34,8 @@ const navItems = [
 export default function Sidebar({ activeSection, onNav }) {
   return (
     <>
-      {/* Desktop Sidebar */}
+      {/* Sidebar Content */}
+
       <aside className="sidebar">
         <div className="sidebar-profile">
           <img
@@ -46,9 +47,9 @@ export default function Sidebar({ activeSection, onNav }) {
               e.currentTarget.src = 'https://via.placeholder.com/72x72/111111/404040?text=KA';
             }}
           />
-          <div className="available-badge">
+          <div className="open-to-work-badge">
             <span className="pulse-dot" />
-            Available
+            Open to work
           </div>
         </div>
 
@@ -80,9 +81,9 @@ export default function Sidebar({ activeSection, onNav }) {
               e.currentTarget.src = 'https://via.placeholder.com/44x44/111111/404040?text=KA';
             }}
           />
-          <div className="available-badge">
+          <div className="open-to-work-badge">
             <span className="pulse-dot" />
-            Available
+            Open to work
           </div>
         </div>
       </div>

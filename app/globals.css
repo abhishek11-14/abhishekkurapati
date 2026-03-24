@@ -85,7 +85,7 @@ img { max-width: 100%; display: block; }
   background: var(--surface-2);
 }
 
-.available-badge {
+.open-to-work-badge {
   display: flex;
   align-items: center;
   gap: 6px;
